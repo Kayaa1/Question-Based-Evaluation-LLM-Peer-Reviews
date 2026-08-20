@@ -1,0 +1,42 @@
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+.venv/
+venv/
+
+# Secrets and local configuration
+.env
+.env.*
+!.env.example
+
+# Restricted or generated research material
+data/
+inputs/
+outputs/
+*.xlsx
+*.xls
+*.jsonl
+*.pdf
+*.ipynb
+notebooks/
+
+# Internal project-management material
+notes/
+CODEX.md
+AGENTS.md
+PROJECT_LOG.md
+
+# Editors and operating systems
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Local release audit files
+FILE_MANIFEST.csv
+RELEASE_AUDIT.md
